@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">QUẢN LÍ SINH VIÊN</div>
+        <div class="menu">
+            <h1><a href = "Controller/C_Student.php?mod1='1'"> Xem sinh viên </h1>
+            <h1><a href = "Controller/C_Student.php?mod2='1'"> Thêm sinh viên </h1>
+            <h1><a href = "Controller/C_Student.php?mod3='1'"> Cập nhật sinh viên </h1>
+            <h1><a href = "Controller/C_Student.php?mod4='1'"> Xóa sinh viên </h1>
+            <h1><a href = "Controller/C_Student.php?mod5='1'"> Tìm kiếm sinh viên </h1>
+        </div>
+        
+    </div>
+    
+
+
+</body>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #CC99CC;
+        height: 100vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #2a3563;
+
+    }
+    .title{
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    .menu{
+        background-color: blanchedalmond;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .menu h1{
+        padding: 10px;
+        margin: 0;
+        border-bottom: #2a3563 solid 1px;
+    }
+    .menu h1:hover{
+        color: #FFF3E4;
+        background-color: #2a3563;
+    }
+    .menu a{
+        display: block; 
+        text-decoration: none;
+        font-size: 15px;
+        color: inherit;
+        text-align: center;
+    }
+    .menu h1 a:hover {
+        font-weight: bold;
+        color: #FFF3E4;
+        /* background-color: #6B4F4F; */
+    }
+</style>
+</html>

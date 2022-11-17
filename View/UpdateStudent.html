@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  class="form" action="C_Student.php" method="post" align = "center">
+        <div>id</div>
+        <input type="text" name="id" readonly="true" value="<?php  echo "$student->id" ?>"> <br>
+        <div>Họ và tên</div>
+        <input type="text" name="name" value="<?php  echo "$student->name" ?>"> <br>
+        <div>Tuổi</div>
+        <input type="text" name="age" value="<?php  echo "$student->age" ?>"><br>
+        <div>Trường đại học</div>
+        <input type="text" name="university" value="<?php  echo "$student->university" ?>"><br>
+        <input class="btn" type="submit" name="update" value="Cập nhật" />
+        <p class="return"><a href="../index.php">Trở về</a></p>
+    </form>
+</body>
+</html>
